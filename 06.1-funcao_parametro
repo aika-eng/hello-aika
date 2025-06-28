@@ -1,0 +1,10 @@
+def escrever(titulo):
+    print(titulo)
+
+print("-" * 20)
+escrever('Fabrica de programadores')
+print("-" * 20)
+escrever("Turma de sábado")
+print("-" * 20)
+escrever("Gustavo Alan dos Santos")
+print("-" * 20)
