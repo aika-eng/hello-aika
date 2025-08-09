@@ -1,3 +1,4 @@
+letra = "s"
 while letra.lower() == 's':  # Aceita 's' ou 'S'
     try:
         cotacao = float(input('Digite a cotação do dólar: '))
