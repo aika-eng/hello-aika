@@ -1,0 +1,99 @@
+/* Resetando margens e paddings para um layout consistente */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   /*background-color: #f4f4f9;*/
+   background-image: url(rezewall.png);
+   background-size: cover;
+   color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+/* container principal do formulario */
+.container {
+    opacity: 95%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 50%;
+    max-width: 400%;
+    text-align: center;
+}
+/* titulo do formulario */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* estilo para formatação de cada grupo de input */
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+
+}
+
+/* Estilo para os rotulos labels */
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* estilo de formatação para os campos de input */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 16px;
+}
+/*muda a cor ao clicar em cima do input do formulario */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+input[type="password"]:focus {
+    border-color: blueviolet;
+    outline: none;
+
+}
+
+/*Estilo do botao cadastrar*/
+button {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+}
+
+/* estilo do botao de envio ao passar o mouse */
+button:hover {
+    background-color: #0056b3;
+
+}
+
+
