@@ -23,3 +23,6 @@ for i in range(1,50):
         f.write(res.content)
 
 print(f"Imagem salva em {image_file}")
+
+
+
